@@ -1,0 +1,1390 @@
+@media (min-width: 1200px) and (max-width: 1365px) {
+  .header_info {
+    margin: auto 2.5%;
+  }
+  .social {
+    margin-right: 2%;
+  }
+  .header_nav a {
+    margin-left: 2em;
+  }
+  .header_nav a:first-child {
+    margin-left: 0;
+  }
+  .logo {
+    margin-right: 28%;
+  }
+  .logo p {
+    font-size: 0.6em;
+    margin-left: 1%;
+  }
+  .slogan {
+    height: 29.5em;
+  }
+  .slogan .slogan_content {
+    margin-top: 6.8em;
+    width: 45%;
+  }
+  .slogan .slogan_content h1 {
+    font-size: 2.5em;
+  }
+  .slogan .slogan_content h5 {
+    font-size: 1em;
+  }
+  .slogan .rec_button {
+    padding-top: 0.6%;
+    width: 15%;
+    height: 6%;
+  }
+  .services {
+    height: 33.5em;
+  }
+  .services .section_name {
+    left: 42%;
+  }
+  .services .service1,
+  .services .service2,
+  .services .service3,
+  .services .service4 {
+    height: 23em;
+  }
+  .services .service1 h3,
+  .services .service2 h3,
+  .services .service3 h3,
+  .services .service4 h3 {
+    margin: 58% 19%;
+  }
+  .services .detailed_btn {
+    padding-bottom: 2%;
+  }
+  .about h5 {
+    font-size: 1em;
+  }
+  .about h6 {
+    font-size: 0.9em;
+    margin-top: 3.2%;
+  }
+  .about .section_name {
+    left: 43.3%;
+    top: 5.5%;
+  }
+  .about .about_video {
+    margin-top: 4.2%;
+  }
+  .about .src_video {
+    height: 23em;
+    margin-bottom: 4.8%;
+  }
+  .about .play_btn {
+    width: 4%;
+    height: 11%;
+    left: 47.5%;
+    top: 38%;
+  }
+  .about .play_v {
+    top: 30%;
+    left: 34%;
+    width: 1.2em;
+  }
+  .coaches {
+    height: 29em;
+  }
+  .coaches p {
+    font-size: 0.9em;
+  }
+  .coaches .section_head {
+    margin-bottom: 4%;
+  }
+  .coaches .section_head h2 {
+    padding-top: 0.7%;
+    left: 41%;
+  }
+  .coaches .section_head > .line_l {
+    margin-left: 33.8%;
+  }
+  .coaches .section_head > .line_r {
+    margin-right: 33.8%;
+  }
+  .appeal {
+    height: 23em;
+  }
+  .appeal h2 {
+    font-size: 2em;
+    word-spacing: normal;
+  }
+  .appeal .appeal_btn {
+    width: 30%;
+    height: 8.5%;
+    padding-top: 1.3%;
+  }
+  .reviews {
+    height: 31em;
+  }
+  .reviews p {
+    font-size: 0.9em;
+  }
+  .reviews .section_name {
+    left: 41%;
+    top: 9%;
+  }
+  .reviews .prev_btn,
+  .reviews .next_btn {
+    width: 2.8em;
+    height: 2.7em;
+  }
+  .reviews .prev,
+  .reviews .next {
+    padding: 22%;
+    width: 54%;
+  }
+  .subscribe {
+    height: 23em;
+  }
+  .subscribe h2 {
+    font-size: 2em;
+  }
+  .subscribe p {
+    font-size: 0.9em;
+    margin-left: 19%;
+  }
+  .subscribe .subscribe_to input {
+    height: 2.7em;
+    width: 31%;
+  }
+  .subscribe .subs_btn {
+    width: 26%;
+    height: 1.9em;
+    padding-top: 1%;
+  }
+  .map {
+    height: 21em;
+  }
+  .map .locate_place {
+    top: 9.2em;
+    left: 34em;
+    height: 6%;
+    width: 1.5%;
+  }
+  .footer {
+    height: 19em;
+  }
+  .footer .footer_head {
+    margin-top: 1%;
+  }
+  .footer .footer_head h5 {
+    font-size: 1.2em;
+  }
+  .footer .footer_head p,
+  .footer .footer_head span,
+  .footer .footer_head li {
+    font-size: 0.8em;
+  }
+  .footer .footer_head .logo p {
+    font-size: 0.6em;
+    margin-left: 1%;
+  }
+  .footer .footer_head .logo span {
+    font-size: 1em;
+  }
+  .footer .social .circle {
+    top: 10em;
+  }
+  .footer .social .circle1 {
+    left: 7.5%;
+  }
+  .footer .social .circle2 {
+    left: 11%;
+  }
+  .footer .social .circle3 {
+    left: 14.5%;
+  }
+  .footer .social .circle4 {
+    left: 18%;
+  }
+  .footer .f_icon {
+    width: 8%;
+    height: 1em;
+  }
+  .footer .copyright {
+    margin-top: 4%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1199px) {
+  .header_info {
+    margin-left: 3%;
+    margin-right: 0;
+    width: 42em;
+  }
+  .header_info span,
+  .header_info p {
+    font-size: 0.8em;
+  }
+  .header_info .social {
+    margin-left: 4%;
+  }
+  .header_end {
+    height: 4em;
+  }
+  .header_end .logo {
+    margin-top: -0.7em;
+    margin-right: 15%;
+    margin-left: 6%;
+  }
+  .header_end .logo p {
+    letter-spacing: 0.2em;
+  }
+  .header_end .header_nav ul {
+    padding-left: 0;
+  }
+  .header_end .header_nav a {
+    height: 4.1em;
+    margin-left: 2em;
+  }
+  .slogan {
+    height: 26em;
+  }
+  .slogan .slogan_content {
+    width: 40%;
+    margin: 13% auto 4%;
+  }
+  .slogan .slogan_content h1 {
+    font-size: 2.5em;
+  }
+  .slogan .slogan_content h5 {
+    font-size: 0.84em;
+  }
+  .slogan .rec_button {
+    padding-top: 0.5%;
+    height: 7%;
+  }
+  .services {
+    margin-top: 2%;
+    height: 26em;
+  }
+  .services .section_name {
+    left: 41%;
+    top: 17%;
+    font-size: 2em;
+  }
+  .services .section_head > .line_l {
+    margin-left: 33.8%;
+  }
+  .services .section_head > .line_r {
+    margin-right: 33.8%;
+  }
+  .services .service1,
+  .services .service2,
+  .services .service3,
+  .services .service4 {
+    height: 18em;
+  }
+  .services .service1 h3,
+  .services .service2 h3,
+  .services .service3 h3,
+  .services .service4 h3 {
+    margin: 58% 19%;
+    font-size: 1.2em;
+  }
+  .services .service_detail h4 {
+    font-size: 1.1em;
+  }
+  .services .service_detail span {
+    font-size: 0.75em;
+  }
+  .services .service_detail p {
+    font-size: 0.65em;
+  }
+  .services .service_detail .detailed_btn {
+    height: 8%;
+    padding-top: 1.7%;
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+  .about .about_head {
+    padding-top: 6%;
+  }
+  .about .about_head .section_head > .line_l {
+    margin-left: 35.8%;
+    margin-right: 57.1%;
+  }
+  .about .about_head .section_head > .line_r {
+    margin-left: 57.1%;
+    margin-right: 35.8%;
+  }
+  .about .about_head .section_name {
+    font-size: 2em;
+    left: 42.5%;
+    top: 4%;
+  }
+  .about .about_head h6 {
+    font-size: 0.78em;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .about .about_advantages {
+    margin-top: 2%;
+  }
+  .about .about_advantages div {
+    width: 19%;
+  }
+  .about .about_advantages img {
+    width: 15%;
+  }
+  .about .about_advantages h5 {
+    font-size: 0.82em;
+  }
+  .about .about_video {
+    margin-top: 4.2%;
+  }
+  .about .about_video .src_video {
+    height: 20em;
+    margin-bottom: 4.8%;
+  }
+  .about .about_video .play_btn {
+    width: 4%;
+    height: 10%;
+    left: 48%;
+    top: 39%;
+  }
+  .about .about_video .play_v {
+    top: 31%;
+    left: 35%;
+    width: 0.9em;
+  }
+  .coaches {
+    height: 21em;
+    padding-top: 2%;
+  }
+  .coaches p {
+    font-size: 0.9em;
+  }
+  .coaches .section_head {
+    margin-bottom: 4%;
+  }
+  .coaches .section_head h2 {
+    margin-top: -1%;
+    left: 40%;
+    font-size: 2em;
+  }
+  .coaches .section_head > .line_l {
+    margin-left: 32.8%;
+  }
+  .coaches .section_head > .line_r {
+    margin-right: 32.8%;
+  }
+  .coaches .coach1,
+  .coaches .coach2,
+  .coaches .coach3,
+  .coaches .coach4 {
+    width: 17%;
+  }
+  .coaches .coach1 img,
+  .coaches .coach2 img,
+  .coaches .coach3 img,
+  .coaches .coach4 img {
+    width: 80%;
+  }
+  .coaches .coach1 h4,
+  .coaches .coach2 h4,
+  .coaches .coach3 h4,
+  .coaches .coach4 h4 {
+    font-size: 1em;
+  }
+  .coaches .coach1 h6,
+  .coaches .coach2 h6,
+  .coaches .coach3 h6,
+  .coaches .coach4 h6 {
+    font-size: 0.8em;
+  }
+  .coaches .coach1 p,
+  .coaches .coach2 p,
+  .coaches .coach3 p,
+  .coaches .coach4 p {
+    font-size: 0.64em;
+  }
+  .appeal {
+    height: 17em;
+  }
+  .appeal h2 {
+    font-size: 1.8em;
+    word-spacing: normal;
+  }
+  .appeal .appeal_btn {
+    width: 30%;
+    height: 9.5%;
+    padding-top: 1.1%;
+    font-weight: 400;
+    font-size: 0.9em;
+  }
+  .reviews {
+    height: 25em;
+  }
+  .reviews p {
+    font-size: 0.9em;
+  }
+  .reviews .section_name {
+    left: 40%;
+    top: 6.5%;
+    font-size: 2em;
+  }
+  .reviews .section_head > .line_l {
+    margin-left: 32.8%;
+  }
+  .reviews .section_head > .line_r {
+    margin-right: 32.8%;
+  }
+  .reviews .comment1,
+  .reviews .comment2,
+  .reviews .comment3 {
+    width: 25%;
+  }
+  .reviews .comment1 p,
+  .reviews .comment2 p,
+  .reviews .comment3 p {
+    font-size: 0.7em;
+  }
+  .reviews .prev_btn,
+  .reviews .next_btn {
+    width: 2.2em;
+    height: 2.2em;
+  }
+  .reviews .prev,
+  .reviews .next {
+    padding: 28%;
+    width: 49%;
+  }
+  .subscribe {
+    height: 17.5em;
+  }
+  .subscribe h2 {
+    font-size: 2em;
+  }
+  .subscribe p {
+    font-size: 0.75em;
+    margin-left: 18%;
+  }
+  .subscribe .subscribe_to input {
+    height: 2.5em;
+    width: 30%;
+    font-size: 0.75em;
+  }
+  .subscribe .subs_btn {
+    width: 24%;
+    height: 1.8em;
+    padding-top: 0.9%;
+    font-size: 0.9em;
+    font-weight: 400;
+  }
+  .map {
+    height: 16em;
+  }
+  .map .locate_place {
+    top: 7em;
+    left: 25.5em;
+    height: 6%;
+    width: 1.5%;
+  }
+  .footer {
+    height: 14em;
+  }
+  .footer .footer_head {
+    margin-top: 1%;
+  }
+  .footer .footer_head h3 {
+    font-size: 1.1em;
+  }
+  .footer .footer_head h5 {
+    font-size: 1em;
+  }
+  .footer .footer_head p,
+  .footer .footer_head span,
+  .footer .footer_head li {
+    font-size: 0.65em;
+  }
+  .footer .footer_head .logo p {
+    font-size: 0.6em;
+    margin-left: 1%;
+  }
+  .footer .footer_head .logo span {
+    font-size: 1em;
+  }
+  .footer .footer_info,
+  .footer .footer_contacts,
+  .footer .footer_nav,
+  .footer .footer_schedule {
+    margin-left: 6%;
+  }
+  .footer .footer_contacts {
+    width: 16%;
+  }
+  .footer .social .circle {
+    top: 7em;
+  }
+  .footer .social .circle1 {
+    left: 5.5%;
+  }
+  .footer .social .circle2 {
+    left: 10%;
+  }
+  .footer .social .circle3 {
+    left: 14.5%;
+  }
+  .footer .social .circle4 {
+    left: 19%;
+  }
+  .footer .f_icon {
+    height: 0.6em;
+  }
+  .footer .copyright {
+    margin-top: 4%;
+    font-size: 0.55em;
+  }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .header {
+    height: 30%;
+  }
+  .header .header_info {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 2%;
+  }
+  .header .header_info .h_icon {
+    width: 3%;
+    height: 3%;
+    margin-top: 1%;
+  }
+  .header .header_info .h_locate {
+    margin-top: -8%;
+    margin-left: 50%;
+  }
+  .header .header_info .h_locate .h_icon {
+    width: 7%;
+  }
+  .header .header_info .h_schedule {
+    margin-top: 1%;
+    margin-left: 50.3%;
+  }
+  .header .header_info .h_schedule .h_icon {
+    width: 6%;
+  }
+  .header .header_info span,
+  .header .header_info p {
+    font-size: 0.6em;
+  }
+  .header_end {
+    height: 6em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header_end .logo {
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 2%;
+  }
+  .header_end .logo p {
+    font-size: 0.6em;
+    margin-left: 1%;
+  }
+  .header_end .logo span {
+    font-size: 1em;
+  }
+  .header_end .header_nav {
+    margin: auto;
+    width: 100%;
+  }
+  .header_end .header_nav ul {
+    margin-left: 4%;
+  }
+  .header_end .header_nav a {
+    width: 7%;
+    height: 2em;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .header_end .header_nav a:nth-child(1) {
+    width: 8%;
+  }
+  .header_end .header_nav a:nth-child(2) {
+    width: 9%;
+  }
+  .header_end .header_nav a:nth-child(3) {
+    width: 15%;
+  }
+  .header_end .header_nav a:nth-child(4) {
+    width: 7.5%;
+  }
+  .header_end .header_nav a:nth-child(5) {
+    width: 12%;
+  }
+  .header_end .header_nav a:nth-child(6) {
+    width: 13%;
+  }
+  .slogan {
+    height: 17.5em;
+  }
+  .slogan .slogan_content {
+    width: 41%;
+    margin: 10% auto 2%;
+  }
+  .slogan h1 {
+    font-size: 2em;
+    margin-top: 4%;
+  }
+  .slogan h5 {
+    font-size: 0.7em;
+  }
+  .slogan .rec_button {
+    font-weight: normal;
+    width: 13%;
+    height: 6.5%;
+    padding-top: 0.5%;
+    font-size: 0.65em;
+  }
+  .services {
+    height: 19em;
+    margin-top: 0;
+  }
+  .services .section_head {
+    padding-top: 6%;
+  }
+  .services .section_head > .line_l {
+    margin-left: 33.8%;
+  }
+  .services .section_head > .line_r {
+    margin-right: 33.8%;
+  }
+  .services .section_name {
+    left: 39.8%;
+    top: 32%;
+    font-size: 1.5em;
+  }
+  .services .services_var .service1,
+  .services .services_var .service2,
+  .services .services_var .service3,
+  .services .services_var .service4 {
+    height: 12.5em;
+  }
+  .services .services_var .service1 h3,
+  .services .services_var .service2 h3,
+  .services .services_var .service3 h3,
+  .services .services_var .service4 h3 {
+    font-size: 0.9em;
+    margin: 64% 19%;
+  }
+  .services .service_detail h4 {
+    font-size: 0.8em;
+  }
+  .services .service_detail span {
+    font-size: 0.7em;
+  }
+  .services .service_detail p {
+    font-size: 0.5em;
+  }
+  .services .detailed_btn {
+    padding-top: 2%;
+    font-size: 0.5em;
+    font-weight: normal;
+  }
+  .about {
+    height: 36em;
+  }
+  .about .about_head {
+    height: 4em;
+  }
+  .about .section_name {
+    left: 41.8%;
+    top: 4.5%;
+    font-size: 1.5em;
+  }
+  .about .section_head > .line_l {
+    margin-left: 34.8%;
+    margin-right: 58.1%;
+  }
+  .about .section_head > .line_r {
+    margin-left: 58.1%;
+    margin-right: 34.8%;
+  }
+  .about h5 {
+    font-size: 0.7em;
+  }
+  .about h6 {
+    font-size: 0.55em;
+  }
+  .about .about_advantages {
+    margin-top: 1.5%;
+  }
+  .about .about_advantages div {
+    width: 21%;
+  }
+  .about .about_video {
+    margin-top: 3.2%;
+  }
+  .about .about_video .src_video {
+    height: 17em;
+    margin-bottom: 3.8%;
+  }
+  .about .about_video .play_btn {
+    width: 5%;
+    height: 10%;
+    left: 47%;
+    top: 40%;
+  }
+  .about .about_video .play_v {
+    top: 31%;
+    left: 35%;
+    width: 0.8em;
+  }
+  .coaches {
+    height: 15em;
+    padding-top: 2%;
+  }
+  .coaches p {
+    font-size: 0.5em;
+  }
+  .coaches .section_head {
+    margin-bottom: 4%;
+  }
+  .coaches .section_head h2 {
+    margin-top: -2%;
+    left: 39%;
+    font-size: 1.5em;
+  }
+  .coaches .section_head > .line_l {
+    margin-left: 32.8%;
+  }
+  .coaches .section_head > .line_r {
+    margin-right: 32.8%;
+  }
+  .coaches .coach1,
+  .coaches .coach2,
+  .coaches .coach3,
+  .coaches .coach4 {
+    width: 17%;
+  }
+  .coaches .coach1 img,
+  .coaches .coach2 img,
+  .coaches .coach3 img,
+  .coaches .coach4 img {
+    width: 68%;
+  }
+  .coaches .coach1 h4,
+  .coaches .coach2 h4,
+  .coaches .coach3 h4,
+  .coaches .coach4 h4 {
+    font-size: 0.75em;
+  }
+  .coaches .coach1 h6,
+  .coaches .coach2 h6,
+  .coaches .coach3 h6,
+  .coaches .coach4 h6 {
+    font-size: 0.55em;
+  }
+  .coaches .coach1 p,
+  .coaches .coach2 p,
+  .coaches .coach3 p,
+  .coaches .coach4 p {
+    font-size: 0.5em;
+  }
+  .appeal {
+    height: 11em;
+  }
+  .appeal h2 {
+    font-size: 1.5em;
+    word-spacing: normal;
+  }
+  .appeal .appeal_btn {
+    width: 20%;
+    height: 9.5%;
+    padding-top: 1%;
+    font-weight: normal;
+    font-size: 0.6em;
+  }
+  .reviews {
+    height: 18em;
+  }
+  .reviews p {
+    font-size: 0.5em;
+  }
+  .reviews .section_name {
+    left: 39%;
+    top: 6.5%;
+    font-size: 1.5em;
+  }
+  .reviews .section_head > .line_l {
+    margin-left: 31.8%;
+  }
+  .reviews .section_head > .line_r {
+    margin-right: 31.8%;
+  }
+  .reviews .comment1,
+  .reviews .comment2,
+  .reviews .comment3 {
+    width: 25%;
+  }
+  .reviews .comment1 img,
+  .reviews .comment2 img,
+  .reviews .comment3 img {
+    width: 45%;
+  }
+  .reviews .comment1 span img,
+  .reviews .comment2 span img,
+  .reviews .comment3 span img {
+    width: 5%;
+  }
+  .reviews .prev_btn,
+  .reviews .next_btn {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .reviews .prev,
+  .reviews .next {
+    padding: 29%;
+    width: 46%;
+  }
+  .subscribe {
+    height: 11.5em;
+  }
+  .subscribe h2 {
+    font-size: 1.5em;
+  }
+  .subscribe p {
+    font-size: 0.5em;
+    margin-left: 18%;
+  }
+  .subscribe .subscribe_to input {
+    height: 1.8em;
+    width: 27%;
+    font-size: 0.5em;
+    padding-bottom: 1%;
+  }
+  .subscribe .subs_btn {
+    width: 21%;
+    height: 1.9em;
+    padding-top: 0.55%;
+    font-size: 0.5em;
+    font-weight: 200;
+  }
+  .map {
+    height: 10em;
+  }
+  .map .locate_place {
+    top: 4.6em;
+    left: 17em;
+    height: 6%;
+    width: 1.5%;
+  }
+  .footer {
+    height: 9.5em;
+  }
+  .footer .footer_head {
+    margin-top: 1%;
+  }
+  .footer .footer_head h3 {
+    font-size: 1em;
+  }
+  .footer .footer_head h5 {
+    font-size: 0.7em;
+  }
+  .footer .footer_head p,
+  .footer .footer_head span,
+  .footer .footer_head li {
+    font-size: 0.5em;
+  }
+  .footer .footer_head .logo p {
+    font-size: 0.5em;
+    margin-left: 1%;
+  }
+  .footer .footer_head .logo span {
+    font-size: 1em;
+  }
+  .footer .footer_info,
+  .footer .footer_contacts,
+  .footer .footer_nav,
+  .footer .footer_schedule {
+    margin-left: 5%;
+  }
+  .footer .f_icon {
+    height: 0.4em;
+    width: 7%;
+  }
+  .footer .footer_contacts {
+    width: 16%;
+  }
+  .footer .footer_contacts span {
+    margin-left: -1%;
+    font-size: 0.45em;
+  }
+  .footer .footer_schedule p {
+    line-height: 3.5em;
+  }
+  .footer .social .circle {
+    top: 6em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .footer .social .circle1 {
+    left: 3.5%;
+  }
+  .footer .social .circle2 {
+    left: 9%;
+  }
+  .footer .social .circle3 {
+    left: 14.5%;
+  }
+  .footer .social .circle4 {
+    left: 20%;
+  }
+  .footer .copyright {
+    margin-top: 4%;
+    font-size: 0.45em;
+  }
+}
+@media (min-width: 320px) and (max-width: 599px) {
+  .header {
+    height: 30%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header .header_info {
+    margin-left: 11%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 2%;
+    width: 81%;
+  }
+  .header .header_info .h_icon {
+    display: none;
+  }
+  .header .header_info .h_locate {
+    margin-top: -10%;
+    margin-left: 39%;
+  }
+  .header .header_info .h_schedule {
+    margin-top: 0;
+    margin-left: 39%;
+  }
+  .header .header_info span,
+  .header .header_info p {
+    font-size: 0.6em;
+    margin-left: 1%;
+  }
+  .header .social {
+    margin-bottom: 2%;
+  }
+  .header_end {
+    height: 4em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header_end .logo {
+    margin-top: 2%;
+    margin-right: auto;
+    margin-bottom: 1%;
+    width: 30%;
+  }
+  .header_end .logo p {
+    font-size: 0.5em;
+    margin-left: 1%;
+  }
+  .header_end .logo h3 {
+    font-size: 0.9em;
+  }
+  .header_end .header_nav {
+    margin: auto 0;
+  }
+  .header_end .header_nav ul {
+    margin-left: -8%;
+    max-width: 100%;
+    padding-left: 0;
+  }
+  .header_end .header_nav a {
+    height: 1.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 0.7em;
+    border-bottom: none;
+    font-weight: normal;
+  }
+  .header_end .header_nav a:nth-child(1) {
+    width: 3.2em;
+  }
+  .header_end .header_nav a:nth-child(2) {
+    width: 17%;
+  }
+  .header_end .header_nav a:nth-child(3) {
+    width: 27%;
+  }
+  .header_end .header_nav a:nth-child(4) {
+    width: 13%;
+  }
+  .header_end .header_nav a:nth-child(5) {
+    width: 21%;
+  }
+  .header_end .header_nav a:nth-child(6) {
+    width: 25%;
+  }
+  .slogan {
+    height: 100%;
+  }
+  .slogan .slogan_content {
+    width: 50%;
+    margin: 10% auto 4%;
+  }
+  .slogan h1 {
+    font-size: 1.2em;
+    margin-top: 4%;
+  }
+  .slogan h5 {
+    font-size: 0.5em;
+  }
+  .slogan .rec_button {
+    font-weight: normal;
+    width: 19%;
+    height: 8%;
+    padding-top: 0;
+    padding-bottom: 1%;
+    font-size: 0.5em;
+    margin-bottom: 10%;
+  }
+  .services {
+    height: 100%;
+    margin-top: 0;
+  }
+  .services .section_head {
+    padding-top: 6%;
+  }
+  .services .section_head > .line_l {
+    margin-left: 33.8%;
+  }
+  .services .section_head > .line_r {
+    margin-right: 33.8%;
+  }
+  .services .section_name {
+    left: 38%;
+    top: 42%;
+    font-size: 1em;
+  }
+  .services .services_var {
+    margin-bottom: 3%;
+    margin-top: 5%;
+  }
+  .services .services_var .service1,
+  .services .services_var .service2,
+  .services .services_var .service3,
+  .services .services_var .service4 {
+    height: 6.5em;
+  }
+  .services .services_var .service1 h3,
+  .services .services_var .service2 h3,
+  .services .services_var .service3 h3,
+  .services .services_var .service4 h3 {
+    font-size: 0.5em;
+    margin: 60% 5%;
+  }
+  .services .service_detail h4 {
+    font-size: 0.45em;
+  }
+  .services .service_detail span {
+    font-size: 0.4em;
+    margin-bottom: 5%;
+  }
+  .services .service_detail p {
+    display: none;
+  }
+  .services .detailed_btn {
+    padding-bottom: 7%;
+    padding-top: 0;
+    height: 4%;
+    font-size: 0.4em;
+    font-weight: normal;
+  }
+  .about {
+    height: 100%;
+  }
+  .about .about_head {
+    height: 3em;
+  }
+  .about .section_name {
+    left: 40%;
+    top: 5%;
+    font-size: 1em;
+  }
+  .about .section_head > .line_l {
+    margin-left: 34.8%;
+    margin-right: 60.1%;
+  }
+  .about .section_head > .line_r {
+    margin-left: 60.1%;
+    margin-right: 34.8%;
+  }
+  .about h5 {
+    font-size: 0.5em;
+  }
+  .about h6 {
+    margin-top: 4%;
+    font-size: 0.45em;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .about .about_advantages {
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+  }
+  .about .about_advantages div {
+    width: 20%;
+  }
+  .about .about_advantages div img {
+    width: 30%;
+  }
+  .about .about_video {
+    display: none;
+  }
+  .coaches {
+    height: 100%;
+    padding-top: 2%;
+  }
+  .coaches p {
+    font-size: 0.4em;
+  }
+  .coaches .section_head {
+    margin-bottom: 4%;
+  }
+  .coaches .section_head h2 {
+    margin-top: -2%;
+    left: 36%;
+    font-size: 1em;
+  }
+  .coaches .section_head > .line_l {
+    margin-left: 31.8%;
+  }
+  .coaches .section_head > .line_r {
+    margin-right: 31.8%;
+  }
+  .coaches .coaches_description {
+    margin-bottom: 2%;
+  }
+  .coaches .coach1 {
+    margin-left: 5%;
+  }
+  .coaches .coach2 {
+    margin-left: 2%;
+  }
+  .coaches .coach3 {
+    margin-left: 2%;
+  }
+  .coaches .coach4 {
+    margin-right: 5%;
+  }
+  .coaches .coach1,
+  .coaches .coach2,
+  .coaches .coach3,
+  .coaches .coach4 {
+    width: 22%;
+  }
+  .coaches .coach1 img,
+  .coaches .coach2 img,
+  .coaches .coach3 img,
+  .coaches .coach4 img {
+    width: 60%;
+  }
+  .coaches .coach1 h4,
+  .coaches .coach2 h4,
+  .coaches .coach3 h4,
+  .coaches .coach4 h4 {
+    font-size: 0.5em;
+  }
+  .coaches .coach1 h6,
+  .coaches .coach2 h6,
+  .coaches .coach3 h6,
+  .coaches .coach4 h6 {
+    font-size: 0.4em;
+  }
+  .coaches .coach1 p,
+  .coaches .coach2 p,
+  .coaches .coach3 p,
+  .coaches .coach4 p {
+    display: none;
+  }
+  .appeal {
+    height: 100%;
+  }
+  .appeal h2 {
+    font-size: 1em;
+    word-spacing: normal;
+    margin-top: 12%;
+    margin-bottom: 5%;
+  }
+  .appeal .appeal_btn {
+    width: 22%;
+    height: 13%;
+    padding-bottom: 0.8%;
+    padding-top: 0.1%;
+    font-weight: normal;
+    font-size: 0.5em;
+    margin-bottom: 12%;
+  }
+  .reviews {
+    height: 100%;
+  }
+  .reviews p {
+    font-size: 0.4em;
+  }
+  .reviews .section_name {
+    left: 37%;
+    top: 5%;
+    font-size: 1em;
+  }
+  .reviews .section_head > .line_l {
+    margin-left: 31.8%;
+  }
+  .reviews .section_head > .line_r {
+    margin-right: 31.8%;
+  }
+  .reviews .comment1,
+  .reviews .comment2,
+  .reviews .comment3 {
+    width: 28%;
+  }
+  .reviews .comment1 img,
+  .reviews .comment2 img,
+  .reviews .comment3 img {
+    width: 40%;
+  }
+  .reviews .comment1 span img,
+  .reviews .comment2 span img,
+  .reviews .comment3 span img {
+    width: 5%;
+  }
+  .reviews .pagination {
+    height: 2em;
+  }
+  .reviews .prev_btn,
+  .reviews .next_btn {
+    width: 1.3em;
+    height: 1.3em;
+    position: absolute;
+  }
+  .reviews .prev_btn {
+    left: 41%;
+  }
+  .reviews .prev,
+  .reviews .next {
+    padding: 29%;
+    width: 46%;
+  }
+  .subscribe {
+    height: 100%;
+    -webkit-background-size: contain;
+            background-size: contain;
+  }
+  .subscribe .subs_content {
+    margin: auto;
+    margin-top: 11%;
+  }
+  .subscribe h2 {
+    font-size: 1em;
+  }
+  .subscribe p {
+    font-size: 0.4em;
+    margin-left: 18%;
+  }
+  .subscribe .subscribe_to input {
+    height: 1.8em;
+    width: 27%;
+    font-size: 0.4em;
+    padding-top: 0.6%;
+    padding-bottom: 1%;
+  }
+  .subscribe .subs_btn {
+    width: 21%;
+    height: 1.9em;
+    padding-top: 0.6%;
+    font-size: 0.4em;
+    font-weight: 200;
+    margin-bottom: 13%;
+  }
+  .map {
+    height: 7em;
+    -webkit-background-size: contain;
+            background-size: contain;
+  }
+  .map .locate_place {
+    top: 2.2em;
+    left: 9.1em;
+    height: 8%;
+    width: 1.9%;
+  }
+  .footer {
+    height: 100%;
+  }
+  .footer .footer_head {
+    margin-top: 5%;
+  }
+  .footer .footer_head h3 {
+    font-size: 1em;
+  }
+  .footer .footer_head .logo p {
+    font-size: 0.5em;
+    margin-left: 1%;
+  }
+  .footer .footer_head .logo span {
+    font-size: 1em;
+  }
+  .footer .footer_contacts,
+  .footer .footer_nav,
+  .footer .footer_schedule {
+    display: none;
+  }
+  .footer .text_inf {
+    display: none;
+  }
+  .footer .social .circle {
+    top: 18%;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .footer .social .circle1 {
+    left: 55%;
+  }
+  .footer .social .circle2 {
+    left: 65%;
+  }
+  .footer .social .circle3 {
+    left: 75%;
+  }
+  .footer .social .circle4 {
+    left: 85%;
+  }
+  .footer .copyright {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 0.45em;
+  }
+  * {
+    max-width: 100%;
+  }
+}

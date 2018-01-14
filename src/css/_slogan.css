@@ -1,0 +1,46 @@
+.slogan {
+  background: url("../img/bg1.jpg");
+  width: auto;
+  height: 41.5em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.slogan_content {
+  color: #ffffff;
+  width: 40%;
+  margin: 12.8em auto 2em;
+}
+.slogan_content h1 {
+  letter-spacing: 0.02em;
+}
+.slogan_content h5 {
+  margin-top: 2.6%;
+  letter-spacing: -0.01em;
+}
+.rec_button {
+  color: #ffffff;
+  font-weight: 500;
+  width: 15.5%;
+  height: 5.5%;
+  border: 2px solid #fe5621;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  background-color: #fe5621;
+  margin: 0 auto;
+  padding-top: 0.8%;
+}
+.rec_button:hover,
+.rec_button:active,
+.rec_button:focus {
+  background-color: transparent;
+}

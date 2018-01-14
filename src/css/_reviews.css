@@ -1,0 +1,98 @@
+.reviews {
+  height: 33.2em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-top: 4%;
+  position: relative;
+}
+.reviews .section_head {
+  padding: 2.8% 0 0;
+  margin-bottom: 5%;
+}
+.reviews .section_head > .line_l {
+  margin-left: 34.8%;
+  margin-right: 56.1%;
+}
+.reviews .section_head > .line_r {
+  margin-left: 56.1%;
+  margin-right: 34.8%;
+}
+.reviews h2 {
+  left: 42.2%;
+  letter-spacing: 0.04em;
+}
+.reviews_content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 4%;
+}
+.reviews_content p {
+  font-size: 0.9em;
+  margin-top: 5%;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+.reviews_content p:last-child {
+  font-weight: 600;
+}
+.reviews_content span {
+  margin-right: 3%;
+}
+.comment1,
+.comment2,
+.comment3 {
+  width: 26%;
+}
+.comment1 {
+  margin-left: 5%;
+}
+.comment3 {
+  margin-right: 5%;
+}
+.pagination {
+  position: relative;
+}
+.prev {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.prev,
+.next {
+  padding: 22%;
+  width: 55%;
+}
+.prev_btn,
+.next_btn {
+  width: 3em;
+  height: 2.9em;
+  left: 45.7%;
+  position: absolute;
+  border: 0.1em solid #fe5621;
+  -webkit-border-radius: 1.5em;
+          border-radius: 1.5em;
+  opacity: 0.4;
+  z-index: 5;
+}
+.prev_btn:hover,
+.next_btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.next_btn {
+  left: 51%;
+}

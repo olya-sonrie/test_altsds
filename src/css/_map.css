@@ -1,0 +1,14 @@
+.map {
+  position: relative;
+  background: url("../img/map.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 25.1em;
+}
+.locate_place {
+  position: absolute;
+  left: 40em;
+  top: 10.5em;
+  height: 7%;
+  width: 1.7%;
+}

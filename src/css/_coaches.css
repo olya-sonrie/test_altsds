@@ -1,0 +1,74 @@
+.coaches {
+  height: 32.6em;
+  padding-top: 2.5%;
+  position: relative;
+}
+.coaches .section_name {
+  top: 8%;
+  left: 41.5%;
+}
+.coaches .section_head {
+  margin-bottom: 6%;
+  padding-top: 4.2%;
+}
+.coaches .section_head > .line_l {
+  margin-left: 34.8%;
+  margin-right: 56.1%;
+}
+.coaches .section_head > .line_r {
+  margin-left: 56.1%;
+  margin-right: 34.8%;
+}
+.coaches .section_head h2 {
+  left: 42%;
+  letter-spacing: 0.05em;
+  padding-top: 1.5%;
+}
+.coaches .section_head hr {
+  margin-left: 34.8%;
+  margin-right: 34.8%;
+}
+.coaches_description {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+.coaches_description div img:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.coaches_description div h4 {
+  margin-top: 8%;
+}
+.coaches_description div h6 {
+  font-weight: 400;
+  margin-bottom: 6%;
+}
+.coaches_description div p {
+  font-weight: lighter;
+}
+.coach1 {
+  width: 22em;
+  margin-left: 10%;
+}
+.coach2,
+.coach3,
+.coach4 {
+  width: 22em;
+  margin-left: 5%;
+}
+.coach4 {
+  margin-right: 10%;
+}
+.coach_inf img:hover {
+  cursor: pointer;
+  background-color: #fe5621;
+  z-index: 10;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}

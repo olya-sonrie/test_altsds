@@ -1,0 +1,57 @@
+.appeal {
+  height: 27.1em;
+  background: url("../img/fitequipness.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+  color: #ffffff;
+  position: relative;
+  -webkit-box-shadow: 0 0 0 44em rgba(254, 86, 33, 0.9) inset;
+          box-shadow: 0 0 0 44em rgba(254, 86, 33, 0.9) inset;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.appeal_content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.appeal_content h2 {
+  margin-bottom: 5%;
+  padding-top: 0;
+  word-spacing: -0.18em;
+}
+.appeal_btn {
+  color: #ffffff;
+  font-weight: 500;
+  width: 32.5%;
+  height: 8.2%;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  background-color: transparent;
+  margin: 0 auto;
+  padding-top: 1.8%;
+}
+.appeal_btn:hover,
+.appeal_btn:active,
+.appeal_btn:focus {
+  background-color: #ffffff;
+  color: #fe5621;
+}

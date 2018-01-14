@@ -1,0 +1,116 @@
+.about {
+  position: relative;
+  background: url("../img/bgrn1.jpg");
+  background-size: cover;
+  box-shadow:0 0 0 44em rgba(39,31,42,0.5) inset;
+  color: #ffffff;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom,#342a44,#88382f);
+    opacity: 0.6;
+  }
+}
+
+.about_head {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7%;
+  height: 5.5em;
+
+  .section_name {
+    left: 43.8%;
+    top: 6.5%;
+    background-color: transparent;
+  }
+
+  h6 {
+    z-index: 1;
+    margin-top: 2.2%;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .section_head > .line_l {
+    margin-left: 36.8%;
+    margin-right: 56.1%;
+  }
+
+  .section_head > .line_r {
+    margin-left: 56.1%;
+    margin-right: 36.8%;
+  }
+}
+
+.about_advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3.5%;
+
+  div {
+    z-index: 1;
+    width: 18%;
+    margin-left: 3.2%;
+
+    &:first-child {
+      margin-left: -0.01%;
+    }
+  }
+
+  img {
+    border: 0.2em solid rgba(255,255,255,0.6);
+    border-radius: 5em;
+    padding: 1em;
+    width: 17%;
+  }
+
+  h5 {
+    font-weight: 400;
+    margin-top: 8%;
+    letter-spacing: -0.02em;
+  }
+}
+
+.about_video {
+  margin-top: 5.2%;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .src_video {
+    z-index: 1;
+    margin: 0 auto 5.8%;
+  }
+
+  .play_btn {
+    background-color: #fe5621;
+    width: 6%;
+    height: 14.8%;
+    left: 47%;
+    top: 35.5%;
+    position: absolute;
+    border-radius: 3em;
+    opacity: 0.4;
+    z-index: 5;
+
+    &:hover {
+      opacity: 0.6;
+      cursor: pointer;
+    }
+  }
+
+  .play_v {
+    position: absolute;
+    top: 32%;
+    left: 36%;
+    width: 1.8em;
+  }
+}

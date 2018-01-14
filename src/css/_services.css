@@ -1,0 +1,139 @@
+.services {
+  height: 41.5em;
+  margin-top: 3.9%;
+}
+.services .section_head {
+  height: 5%;
+  position: relative;
+  padding-top: 37px;
+}
+.services .section_head > .line_l {
+  margin-left: 35.8%;
+  margin-right: 56.1%;
+}
+.services .section_head > .line_r {
+  margin-left: 56.1%;
+  margin-right: 35.8%;
+}
+.section_name {
+  position: absolute;
+  left: 42.8%;
+  top: 11%;
+  background: #ffffff;
+  padding: 0.2% 2%;
+}
+.services_var {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2.2%;
+}
+.service1,
+.service2,
+.service3,
+.service4 {
+  width: 21%;
+  height: 30em;
+  -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+.service1:hover,
+.service2:hover,
+.service3:hover,
+.service4:hover {
+  -webkit-transform: scale(1.05, 1.05);
+      -ms-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+  z-index: 1;
+}
+.service1 {
+  background: url("../img/service1.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.service2 {
+  background: url("../img/service2.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.service3 {
+  background: url("../img/service3.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.service4 {
+  background: url("../img/service4.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.service_detail {
+  display: none;
+}
+.services_var div:hover .service_detail {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: rgba(254, 86, 33, 0.5);
+  height: 100%;
+  -webkit-transition: 1.5s;
+  -o-transition: 1.5s;
+  transition: 1.5s;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.services_var div:hover .service_name {
+  display: none;
+}
+.service_name h3 {
+  margin: 71% 19%;
+  margin-left: 13%;
+  margin-right: 13%;
+  text-align: center;
+}
+.service_detail h4 {
+  margin-bottom: 5%;
+}
+.service_detail p {
+  margin-top: 7%;
+  margin-bottom: 10%;
+  width: 76%;
+  margin-left: 12%;
+  font-size: 0.85em;
+}
+.detailed_btn {
+  color: #fe5621;
+  font-weight: 500;
+  width: 56%;
+  height: 7%;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding-top: 2.7%;
+}
+.detailed_btn:hover,
+.detailed_btn:active,
+.detailed_btn:focus {
+  background-color: transparent;
+  color: #ffffff;
+}

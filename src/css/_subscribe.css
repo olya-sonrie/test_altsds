@@ -1,0 +1,110 @@
+.subscribe {
+  position: relative;
+  background: url("../img/subscribe.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+  -webkit-box-shadow: 0 0 0 44em rgba(39, 31, 42, 0.5) inset;
+          box-shadow: 0 0 0 44em rgba(39, 31, 42, 0.5) inset;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  height: 27em;
+}
+.subscribe:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#342a44), to(#88382f));
+  background-image: -webkit-linear-gradient(top, #342a44, #88382f);
+  background-image: -o-linear-gradient(top, #342a44, #88382f);
+  background-image: linear-gradient(to bottom, #342a44, #88382f);
+  opacity: 0.6;
+}
+.subs_content {
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.subs_content h2 {
+  padding-top: 0;
+  word-spacing: -0.18em;
+}
+.subs_content p {
+  width: 61%;
+  font-weight: 300;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+.subscribe_to {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+.subscribe_to input {
+  margin-right: 1%;
+  border: 0.15em solid #ffffff;
+  -webkit-border-radius: 2em;
+          border-radius: 2em;
+  height: 3.2em;
+  width: 35.5%;
+  background-color: transparent;
+  opacity: 0.4;
+  padding-left: 2%;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+.subscribe_to input:hover,
+.subscribe_to input:focus,
+.subscribe_to input:active {
+  opacity: 1;
+  border: 0.15em solid #fe5621;
+}
+.subscribe_to .subs_btn {
+  color: #ffffff;
+  font-weight: 500;
+  width: 28%;
+  height: 2.1em;
+  border: 2px solid #fe5621;
+  -webkit-border-radius: 25px;
+          border-radius: 25px;
+  background-color: #fe5621;
+  padding-top: 1.5%;
+}
+.subscribe_to .subs_btn:hover,
+.subscribe_to .subs_btn:active,
+.subscribe_to .subs_btn:focus {
+  background-color: transparent;
+}

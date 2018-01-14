@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FitnessCenter</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <div class="overlay" onclick="">
+        <form class="popup_form" method="get">
+            <input name="name" type="text" required placeholder="Ваше имя" autocomplete="on">
+            <input name="age" type="number" placeholder="Ваш возраст" autocomplete="on">
+            <input name="weight" type="number" placeholder="Ваш вес" autocomplete="on">
+            <input type="text" name="gender" required placeholder="Ваш пол" autocomplete="on">
+            <select name="sport" required style="height: 3.5em; width: 15.5em;">
+                <option value="0">Вид спорта</option>
+                <option value="1">Бокс</option>
+                <option value="2">Тхэквондо</option>
+                <option value="3">Карате</option>
+                <option value="4">Плавание</option>
+            </select>
+            <input class="next-form" type="submit" value="Записаться">
+        </form>
+    </div>
+
+    <div class="next_modal" onclick="">
+        <form class="next_form" method="get">
+            <input name="program1" type="checkbox" id="test1" value="program1">
+            <label for="test1">Программа1 </label>
+            <input name="program2" type="checkbox" id="test2" value="program2">
+            <label for="test2">Программа2 </label>
+            <input name="program3" type="checkbox" id="test3" value="program3">
+            <label for="test3" style="bottom: -1em;">Программа3 </label>
+            <input type="checkbox" name="program4" id="test4" value="program4">
+            <label for="test4"  style="bottom: -1em;">Программа4 </label>
+            <input type="checkbox" name="program5" id="test5" value="program5">
+            <label for="test5"  style="bottom: -2em;">Программа5 </label>
+            <input name="program6" type="checkbox" id="test6" value="program6">
+            <label for="test6"  style="bottom: -2em;">Программа6 </label>
+            <input name="program7" type="checkbox" id="test7" value="program7">
+            <label for="test7"  style="bottom: -3em;">Программа7 </label>
+            <input name="program8" type="checkbox" id="test8" value="program8">
+            <label for="test8"  style="bottom: -3em;">Программа8 </label>
+            <input class="close-form" type="submit" value="Записаться">
+        </form>
+    </div>
+
+    <div class="last_modal" onclick="">
+        <form class="last_form" method="get">
+            <label for="text-program">Программы:</label> <br>
+            <input class="programs" name="programs" type="text" id="text-program"> <br>
+            <input class="more-form" type="submit" value="Записаться еще">
+        </form>
+    </div>
+
+    <header>
+        <div class="header">
+            <div class="header_info">
+                <div class="h_phone">
+                    <img class="h_icon" src="icons/phone.png" alt="">
+                    <span>+38 050 32 45 555</span>
+                </div>
+                <div class="h_mail">
+                    <img class="h_icon" src="icons/mail.png" alt="">
+                    <span>mail@fitness.org</span>
+                </div>
+                <div class="h_locate">
+                    <img class="h_icon" src="icons/locate.png" alt="">
+                    <p>г. Киев, ул. Центр, дом. 1</p>
+                </div>
+                <div class="h_schedule">
+                    <img class="h_icon" src="icons/clock.png" alt="">
+                    <p>Пн-Сб 9:00-22:00, Вс 10:00-22:00</p>
+                </div>
+            </div>
+            <div class="social">
+                <a href="#" class="fb"></a>
+                <a href="#" class="vk"></a>
+                <a href="#" class="ytb"></a>
+                <a href="#" class="ins"></a>
+            </div>
+        </div>
+        <div class="header_end">
+            <div class="logo">
+                <h3><span>Pro</span>Fitness</h3>
+                <p>Фитнес центр</p>
+            </div>
+            <nav class="header_nav">
+                <ul>
+                    <a href="#"><li>О нас</li></a>
+                    <a href="#"><li>Услуги</li></a>
+                    <a href="#"><li>Расписание</li></a>
+                    <a href="#"><li>Цены</li></a>
+                    <a href="#"><li>Команда</li></a>
+                    <a href="#"><li>Контакты</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="slogan">
+            <div class="slogan_content">
+                <h1>Фитнес центр</h1>
+                <h5>Начните свой путь к здоровому образу жизни с помощью
+                    наших персонализированных программ</h5>
+            </div>
+            <a class="rec_button" href="#">Записаться</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="services">
+            <div class="section_head">
+                <hr class="line line_l" size="0.06em" color="#cecece">
+                <hr class="line line_r" size="0.06em" color="#cecece">
+                <h2 class="section_name">Услуги</h2>
+            </div>
+            <div class="services_var">
+                <div class="service1">
+                    <div class="service_name">
+                        <h3>Личный тренер</h3>
+                    </div>
+                    <div class="service_detail">
+                        <h4>Личный тренер</h4>
+                        <span>235 грн</span>
+                        <p>Excepteur sint cupidatat nonsunt  proident, sunt culpa deserunt
+                            officia mollit anim est ideaes cupidatat laborum. </p>
+                        <a class="detailed_btn" href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="service2">
+                    <div class="service_name">
+                        <h3>Тренажерный зал</h3>
+                    </div>
+                    <div class="service_detail">
+                        <h4>Тренажерный зал</h4>
+                        <span>235 грн</span>
+                        <p>Excepteur sint cupidatat nonsunt  proident, sunt culpa deserunt
+                            officia mollit anim est ideaes cupidatat laborum. </p>
+                        <a class="detailed_btn" href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="service3">
+                    <div class="service_name">
+                        <h3>Групповые занятия</h3>
+                    </div>
+                    <div class="service_detail">
+                        <h4>Групповые занятия</h4>
+                        <span>235 грн</span>
+                        <p>Excepteur sint cupidatat nonsunt  proident, sunt culpa deserunt
+                            officia mollit anim est ideaes cupidatat laborum. </p>
+                        <a class="detailed_btn" href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="service4">
+                    <div class="service_name">
+                        <h3>Бокс</h3>
+                    </div>
+                    <div class="service_detail">
+                        <h4>Бокс</h4>
+                        <span>235 грн</span>
+                        <p>Excepteur sint cupidatat nonsunt  proident, sunt culpa deserunt
+                            officia mollit anim est ideaes cupidatat laborum. </p>
+                        <a class="detailed_btn" href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="about">
+            <div class="about_head">
+                <div class="section_head">
+                    <hr class="line line_l" size="0.06em" color="#cecece">
+                    <hr class="line line_r" size="0.06em" color="#cecece">
+                    <h2 class="section_name">О нас</h2>
+                </div>
+                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor aboris nisi ut aliquip ex commodo consequat.</h6>
+            </div>
+            <div class="about_advantages">
+                <div>
+                    <img src="icons/dumbbell.png" alt="">
+                    <h5>Эксклюзивное новое оборудование</h5>
+                </div>
+                <div>
+                    <img src="icons/football-whistle-of-referee.png" alt="">
+                    <h5>Индивидуальный подход к тренировкам</h5>
+                </div>
+                <div>
+                    <img src="icons/sales.png" alt="">
+                    <h5>Скидочные программы для постоянных клиентов</h5>
+                </div>
+                <div>
+                    <img src="icons/roll-mat-variant.png" alt="">
+                    <h5>Мы предоставляем свой спротинвентарь</h5>
+                </div>
+            </div>
+            <div class="about_video">
+                <img class="src_video" src="img/bg2.jpg" alt="">
+                <span class="play_btn"><img class="play_v" src="icons/play-button.png" alt=""></span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="coaches">
+            <div class="section_head">
+                <hr class="line line_l" size="0.06em" color="#cecece">
+                <hr class="line line_r" size="0.06em" color="#cecece">
+                <h2 class="section_name">Тренера</h2>
+            </div>
+            <div class="coaches_description">
+                <div class="coach1">
+                    <div class="coach_inf">
+                        <img src="img/coach1.png" alt="">
+                        <h4>Имя Фамилия</h4>
+                    </div>
+                    <h6>Главный тренер</h6>
+                    <p>Lorem ipsum dolor consectetur adipisicing, eiusmo incididunt labore dolore aliqua.</p>
+                </div>
+                <div class="coach2">
+                    <div class="coach_inf">
+                        <img src="img/coach2.png" alt="">
+                        <h4>Имя Фамилия</h4>
+                    </div>
+                    <h6>Тренер</h6>
+                    <p>Lorem ipsum dolor consectetur adipisicing, eiusmo incididunt labore dolore aliqua.</p>
+                </div>
+                <div class="coach3">
+                    <div class="coach_inf">
+                        <img src="img/coach3.png" alt="">
+                        <h4>Имя Фамилия</h4>
+                    </div>
+                    <h6>Тренер</h6>
+                    <p>Lorem ipsum dolor consectetur adipisicing, eiusmo incididunt labore dolore aliqua.</p>
+                </div>
+                <div class="coach4">
+                    <div class="coach_inf">
+                        <img src="img/coach4.png" alt="">
+                        <h4>Имя Фамилия</h4>
+                    </div>
+                    <h6>Тренер</h6>
+                    <p>Lorem ipsum dolor consectetur adipisicing, eiusmo incididunt labore dolore aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="appeal">
+            <div class="appeal_content">
+                <h2>Первое занятие у нас бесплатно</h2>
+                <a class="appeal_btn" href="#" id="enroll-button2">Записаться</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="reviews">
+            <div class="section_head">
+                <hr class="line line_l" size="0.06em" color="#cecece">
+                <hr class="line line_r" size="0.06em" color="#cecece">
+                <h2 class="section_name">Отзывы</h2>
+            </div>
+            <div class="reviews_content">
+                <div class="comment1">
+                    <img src="img/comment1.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur elit, eiusmod tempor incididunt labore et
+                        dolore magna aliqua. Ut minim veniam, ullamco commodo consequat. </p>
+                    <p><span><img src="icons/quotes.png" alt=""></span>Имя Фамилия</p>
+                </div>
+                <div class="comment2">
+                    <img src="img/comment2.png" alt="">
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                        dolore magnam aliquam quaerat voluptatem.</p>
+                    <p><span><img src="icons/quotes.png" alt=""></span>Имя Фамилия</p>
+                </div>
+                <div class="comment3">
+                    <img src="img/comment3.png" alt="">
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia deserunt
+                        mollit anim est laborum.</p>
+                    <p><span><img src="icons/quotes.png" alt=""></span>Имя Фамилия</p>
+                </div>
+            </div>
+            <div class="pagination">
+                <span class="prev_btn"><img class="prev" src="icons/play-symbol.png" alt=""></span>
+                <span class="next_btn"><img class="next" src="icons/play-symbol.png" alt=""></span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="subscribe">
+            <div class="subs_content">
+                <h2>Подписаться на новости</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor commodo consequat.</p>
+                <div class="subscribe_to">
+                    <input type="email" name="email" placeholder="Электронная почта" required>
+                    <a class="subs_btn" href="#">Подписаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="map">
+            <img class="locate_place" src="icons/locate-places-on-maps.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer_head">
+                <div class="footer_info">
+                    <div class="logo">
+                        <h3><span>Pro</span>Fitness</h3>
+                        <p>Фитнес центр</p>
+                    </div>
+                    <p class="text_inf">Lorem ipsum dolor amet, constetur elit, eiusmod tempor incididunt labore dolore
+                        magna aliqua. Ut veniam, ullamco commodo consequat. </p>
+                    <div class="social">
+                        <div class="circle circle1"><a href="#" class="fb_btn"></a></div>
+                        <div class="circle circle2"><a href="#" class="vk_btn"></a></div>
+                        <div class="circle circle3"><a href="#" class="ins_btn"></a></div>
+                        <div class="circle circle4"><a href="#" class="ytb_btn"></a></div>
+                    </div>
+                </div>
+                <div class="footer_nav">
+                    <h5>Страницы</h5>
+                    <ul>
+                        <a href="#"><li>О нас</li></a>
+                        <a href="#"><li>Услуги</li></a>
+                        <a href="#"><li>Расписание</li></a>
+                        <a href="#"><li>Цены</li></a>
+                        <a href="#"><li>Команда</li></a>
+                        <a href="#"><li>Контакты</li></a>
+                    </ul>
+                </div>
+                <div class="footer_contacts">
+                    <h5>Контакты</h5>
+                    <div class="f_phone">
+                        <img class="f_icon" src="icons/phone1.png" alt="">
+                        <span>+38 050 32 45 555</span>
+                    </div>
+                    <div class="f_mail">
+                        <img class="f_icon" src="icons/mail1.png" alt="">
+                        <span>mail@fitness.org</span>
+                    </div>
+                    <div class="f_locate">
+                        <img class="f_icon" src="icons/locate1.png" alt="">
+                        <span>г. Киев, ул. Центр, дом. 1</span>
+                    </div>
+                </div>
+                <div class="footer_schedule">
+                    <h5>График работы</h5>
+                    <div class="f_schedule">
+                        <p>Пн-Сб 9:00-22:00</p>
+                        <p>Вс 10:00-22:00</p>
+                    </div>
+                </div>
+            </div>
+            <span class="copyright">&copy 2018 Все права защищены</span>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>

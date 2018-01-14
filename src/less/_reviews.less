@@ -1,0 +1,94 @@
+.reviews {
+  height: 33.2em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 4%;
+  position: relative;
+
+  .section_head {
+    padding: 2.8% 0 0;
+    margin-bottom: 5%;
+
+    & > .line_l {
+      margin-left: 34.8%;
+      margin-right: 56.1%;
+    }
+
+    & > .line_r {
+      margin-left: 56.1%;
+      margin-right: 34.8%;
+    }
+  }
+
+  h2 {
+    left: 42.2%;
+    letter-spacing: 0.04em;
+  }
+}
+
+.reviews_content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4%;
+
+  p {
+    font-size: 0.9em;
+    margin-top: 5%;
+    line-height: 1.6em;
+    font-weight: 300;
+
+    &:last-child {
+      font-weight: 600;
+    }
+  }
+
+  span {
+    margin-right: 3%;
+  }
+}
+
+.comment1, .comment2, .comment3 {
+  width: 26%;
+}
+
+.comment1 {
+  margin-left: 5%;
+}
+
+.comment3 {
+  margin-right: 5%;
+}
+
+.pagination {
+  position: relative;
+}
+
+.prev {
+  transform: rotate(180deg);
+}
+
+.prev, .next {
+  padding: 22%;
+  width: 55%;
+}
+
+.prev_btn, .next_btn {
+  width: 3em;
+  height: 2.9em;
+  left: 45.7%;
+  position: absolute;
+  border: 0.1em solid #fe5621;
+  border-radius: 1.5em;
+  opacity: 0.4;
+  z-index: 5;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+
+.next_btn {
+  left: 51%;
+}
